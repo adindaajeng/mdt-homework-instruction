@@ -1,0 +1,271 @@
+k{
+  "users": [
+    {
+      "email": "ryan@gmail.com",
+      "password": "123#123",
+      "id": 1
+    },
+    {
+      "email": "ryan20@gmail.com",
+      "password": "123@123",
+      "id": 2
+    },
+    {
+      "email": "ryan95@gmail.com",
+      "password": "123@123",
+      "id": 3
+    },
+    {
+      "email": "masdefry@gmail.com",
+      "password": "123abc#",
+      "id": 4
+    }
+  ],
+  "shuttles": [
+    {
+      "id": 1,
+      "type": "Bus",
+      "name": "Pahala Kencana",
+      "from": "Bandung",
+      "to": "Surabaya",
+      "class": "Executive",
+      "price": 275000,
+      "seat": [
+        "1A",
+        "1B",
+        "1C",
+        "1D",
+        "2A",
+        "2B",
+        "2C",
+        "2D",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "4A",
+        "4B",
+        "4C",
+        "4D",
+        "5A",
+        "5B",
+        "5C",
+        "5D",
+        "6A",
+        "6B",
+        "6C",
+        "6D",
+        "7A",
+        "7B",
+        "7C",
+        "7D",
+        "8A",
+        "8B",
+        "8C",
+        "8D"
+      ],
+      "image1": "https://st.redbus.in/bo-images/IDN/WM/16130/1215/FR/L/LSk97O.jpeg",
+      "image2": "https://st.redbus.in/bo-images/IDN/WM/16130/1215/SI/L/U9Hfkw.jpeg",
+      "image3": "https://st.redbus.in/bo-images/IDN/WM/16130/1215/SI/L/KyXWs9.jpeg",
+      "facility": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Bus",
+      "name": "Sugeng Rahayu",
+      "from": "Bandung",
+      "to": "Surabaya",
+      "class": "Executive",
+      "price": 225000,
+      "seat": [
+        "1A",
+        "1B",
+        "1C",
+        "1D",
+        "2A",
+        "2B",
+        "2C",
+        "2D",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "4A",
+        "4B",
+        "4C",
+        "4D",
+        "5A",
+        "5B",
+        "5C",
+        "5D",
+        "6A",
+        "6B",
+        "6C",
+        "6D",
+        "7A",
+        "7B",
+        "7C",
+        "7D",
+        "8A",
+        "8B",
+        "8C",
+        "8D"
+      ],
+      "image1": "https://st.redbus.in/bo-images/IDN/WM/18732/850/FR/L/Yv1HAi.jpeg",
+      "image2": "https://st.redbus.in/bo-images/IDN/WM/18732/850/SI/L/NQtlrd.jpeg",
+      "image3": "https://st.redbus.in/bo-images/IDN/WM/18732/850/SI/L/NQtlrd.jpeg",
+      "facility": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Bus",
+      "name": "Eka Cepat",
+      "from": "Bandung",
+      "to": "Surabaya",
+      "class": "Executive",
+      "price": 225000,
+      "seat": [
+        "1A",
+        "1B",
+        "1C",
+        "1D",
+        "2A",
+        "2B",
+        "2C",
+        "2D",
+        "3A",
+        "3B",
+        "3C",
+        "3D",
+        "4A",
+        "4B",
+        "4C",
+        "4D",
+        "5A",
+        "5B",
+        "5C",
+        "5D",
+        "6A",
+        "6B",
+        "6C",
+        "6D",
+        "7A",
+        "7B",
+        "7C",
+        "7D",
+        "8A",
+        "8B",
+        "8C",
+        "8D"
+      ],
+      "image1": "https://st.redbus.in/bo-images/IDN/WM/17927/604/FR/L/Tra1iI.jpeg",
+      "image2": "https://st.redbus.in/bo-images/IDN/WM/17927/623/FR/L/P6xHDi.jpeg",
+      "image3": "https://st.redbus.in/bo-images/IDN/WM/17927/1215/SI/L/UzkIPI.jpeg",
+      "facility": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Travel",
+      "name": "Jackal Holiday",
+      "from": "Bandung",
+      "to": "Tangerang",
+      "class": "Executive",
+      "price": 125000,
+      "seat": [
+        "1A",
+        "1B",
+        "1C",
+        "1D",
+        "2A",
+        "2B",
+        "2C",
+        "2D",
+        "3A",
+        "3B"
+      ],
+      "image1": "https://st.redbus.in/bo-images/IDN/WM/17869/1278/FR/L/RacWsg.jpeg",
+      "image2": "https://st.redbus.in/bo-images/IDN/WM/17869/1278/SI/L/a8cjI4.jpeg",
+      "image3": "https://st.redbus.in/bo-images/IDN/WM/17869/1278/SI/L/ntA5cb.jpeg",
+      "facility": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Travel",
+      "name": "DayTrans",
+      "from": "Bandung",
+      "to": "Tangerang",
+      "class": "Executive",
+      "price": 105000,
+      "seat": [
+        "1A",
+        "1B",
+        "1C",
+        "1D",
+        "2A",
+        "2B",
+        "2C",
+        "2D",
+        "3A",
+        "3B"
+      ],
+      "image1": "https://st.redbus.in/bo-images/IDN/WM/17867/1278/FR/L/5Qetau.jpeg",
+      "image2": "https://st.redbus.in/bo-images/IDN/WM/17867/1278/SI/L/uxBkKI.jpeg",
+      "image3": "https://st.redbus.in/bo-images/IDN/WM/17867/1278/SI/L/uxBkKI.jpeg",
+      "facility": [
+        1,
+        3,
+        5
+      ]
+    }
+  ],
+  "facility": [
+    {
+      "id": 1,
+      "facility": "Air Conditioning",
+      "image": "./../../Supports/Images/ac.png"
+    },
+    {
+      "id": 2,
+      "facility": "Toilet",
+      "image": "./../../Supports/Images/toilet.png"
+    },
+    {
+      "id": 3,
+      "facility": "Reclining Seat",
+      "image": "./../../Supports/Images/seat.png"
+    },
+    {
+      "id": 4,
+      "facility": "Snack/Food",
+      "image": "./../../Supports/Images/food.png"
+    },
+    {
+      "id": 5,
+      "facility": "Lugage Storage",
+      "image": "./../../Supports/Images/luggage.png"
+    }
+  ],
+  "transactions": []
+}
