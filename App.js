@@ -23,9 +23,11 @@ const App = () => {
   }, []);
 
   const onGetAsyncStorage = () => {
-    AsyncStorage.getItem('@idUser')
+    AsyncStorage.getItem('token')
       .then(result => {
-        if (result !== null) return setIsLogin(true);
+        if (result !== null) {
+          return setIsLogin(true);
+        }
       })
       .catch(error => {
         console.log(error);
@@ -40,5 +42,3 @@ const App = () => {
 };
 
 export default App;
-
-// Tugas : 1. Funciton Validasi Email; 2. Function Validasi Password & Confirm Password (Min. 6 karakter, include number & special karakter)

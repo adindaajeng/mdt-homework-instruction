@@ -22,6 +22,8 @@ import {useState} from 'react/cjs/react.development';
 import MainRouter from './../../../routes/MainRouter';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+import urlAPI from '../../Supports/Constants/urlAPI';
+
 const Login = ({navigation}) => {
   const [data, setData] = useState({
     username: '',
@@ -52,7 +54,7 @@ const Login = ({navigation}) => {
     }
 
     axios
-      .post('https://green-thumb-64168.uc.r.appspot.com/login', {
+      .post(`${urlAPI}/login`, {
         username: data.username,
         password: data.password,
       })
@@ -73,9 +75,9 @@ const Login = ({navigation}) => {
       <Content>
         <Grid
           style={{
-            justifyContent: 'flex-end',
             ...spacing.pxFive,
             ...spacing.pyFive,
+            justifyContent: 'flex-end',
           }}>
           <Row>
             <Text style={{...font.fsFive, ...font.fStyleBold}}>Sign In</Text>
@@ -84,7 +86,7 @@ const Login = ({navigation}) => {
             <Text style={{...font.fsEight, ...font.fStyleBold}}>Welcome!</Text>
           </Row>
           <Row>
-            <Text>Enter your account to continue booking!</Text>
+            <Text>Enter your account to continue</Text>
           </Row>
           <Row style={{...spacing.mtEight}}>
             <Item floatingLabel style={{width: '100%'}}>
@@ -110,7 +112,7 @@ const Login = ({navigation}) => {
             </Text>
           </Row>
           <Row>
-            <Text style={{color: 'red'}}>{message ? message : null}</Text>
+            <Text style={{color: 'red'}}>{message && message}</Text>
           </Row>
           <Row>
             <Button
